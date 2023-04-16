@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(106.37deg, #ffe1bc 29.63%,#ffcfd1 51.55%,#f3c6f1 90.86%);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-content {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    border-bottom-right-radius: 175px;
+}
+.box-inputs{
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    justify-content: space-around;
+    gap: 3px;
+    color: hsl(7, 12%, 29%);
+    text-transform: uppercase;
+}
+.single-input{
+    display: flex;
+    flex-direction: column;
+}
+.single-input label {
+    width: 220px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px solid hsl(0, 1%, 83%);
+    color: #000;
+}
+.single-input input {
+    margin-top: 1rem;
+    font-size: 22px;
+    border-radius: 6px;
+}
+.button-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    border-bottom: 1px solid hsl(0, 1%, 83%);
+}
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 40%;
+    background-color: #C484F3;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+button:hover {
+    background-color: #FF919D;
+}
+.disk {
+    width: 500px;
+    height: 160px;
+    border: 2px solid #662b2b;
+    border-radius: 20%;
+}
+#diskBlock {
+    margin-left: 5.4rem;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
